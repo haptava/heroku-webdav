@@ -1,1 +1,1 @@
-web: sh target/bin/webdav.sh
+web: sh target/bin/webdav.sh  --port $PORT
