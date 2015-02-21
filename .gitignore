@@ -1,0 +1,6 @@
+.DS_Store
+target
+appassembler
+/logs
+*.iws
+.clover

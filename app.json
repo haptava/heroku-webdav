@@ -1,0 +1,27 @@
+{
+  "name": "Haptava WebDAV Server",
+  "description": "A simple example of using Haptava with Heroku",
+  "repository": "https://github.com/haptava/heroku-webdav",
+  "logo": "https://dl.dropboxusercontent.com/u/481551/haptava/haptava_logo.svg",
+  "keywords": [
+    "haptava",
+    "jmx",
+    "webdav"
+  ],
+  "env": {
+    "HAPTAVA_USERNAME": {
+      "description": "Haptava username",
+      "value": "",
+      "required": true
+    },
+    "HAPTAVA_PASSWORD": {
+      "description": "Haptava password",
+      "value": "",
+      "required": true
+    },
+    "APPLICATION_ID": {
+      "description": "Generated value",
+      "generator": "secret"
+    }
+  }
+}

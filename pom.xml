@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>haptava</groupId>
+  <artifactId>heroku-webdav</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <properties>
+    <skipTests>true</skipTests>
+
+    <haptava.version>0.9.39-SNAPSHOT</haptava.version>
+    <slf4j.version>1.7.7</slf4j.version>
+
+    <appassembler.version>1.9</appassembler.version>
+    <deploy.version>2.8.2</deploy.version>
+    <assembly.version>2.5.2</assembly.version>
+
+    <resources.version>2.6</resources.version>
+
+    <maven.compiler.version>3.2</maven.compiler.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <maven.build.timestamp.format>yyyy-MM-dd-HH:mm:ss</maven.build.timestamp.format>
+
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>io.haptava</groupId>
+      <artifactId>haptava-webdav</artifactId>
+      <version>${haptava.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>${slf4j.version}</version>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>${deploy.version}</version>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>${resources.version}</version>
+        <executions>
+
+          <execution>
+            <id>copy-conf</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/target/conf</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>conf</directory>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+
+          <execution>
+            <id>copy-log4j</id>
+            <phase>validate</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/target/log4j</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>log4j</directory>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>appassembler-maven-plugin</artifactId>
+        <version>${appassembler.version}</version>
+
+        <executions>
+
+          <execution>
+
+            <phase>package</phase>
+            <goals>
+              <goal>assemble</goal>
+            </goals>
+
+            <configuration>
+
+              <assembleDirectory>target</assembleDirectory>
+
+              <repositoryLayout>flat</repositoryLayout>
+              <generateRepository>true</generateRepository>
+
+              <platforms>
+                <platform>unix</platform>
+              </platforms>
+
+              <programs>
+                <program>
+                  <id>webdav.sh</id>
+                  <mainClass>io.haptava.launcher.cli.WebDavLauncher</mainClass>
+                  <jvmSettings>
+                    <extraArguments>
+                      <extraArgument>
+                        -Dlog4j.configuration=file:"$BASEDIR"/log4j/webdav.log4j.properties
+                      </extraArgument>
+                      <extraArgument>-server</extraArgument>
+                    </extraArguments>
+                  </jvmSettings>
+                  <platforms>
+                    <platform>unix</platform>
+                  </platforms>
+                </program>
+
+              </programs>
+
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+
+  </build>
+
+</project>
