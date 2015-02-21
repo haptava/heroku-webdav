@@ -7,8 +7,11 @@
   <groupId>haptava</groupId>
   <artifactId>heroku-webdav</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <url>https://github.com/haptava/heroku-webdav.git</url>
   <packaging>pom</packaging>
+
+  <name>Haptava WebDav</name>
+  <description>Haptava WebDAV on Heroku</description>
+  <url>https://github.com/haptava/heroku-webdav.git</url>
 
   <properties>
     <skipTests>true</skipTests>
@@ -28,6 +31,24 @@
     <maven.build.timestamp.format>yyyy-MM-dd-HH:mm:ss</maven.build.timestamp.format>
 
   </properties>
+
+  <repositories>
+    <repository>
+      <id>haptava-snapshots</id>
+      <name>Haptava Snapshots</name>
+      <url>http://maven.haptava.io:8080/nexus/content/repositories/snapshots/</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+    </repository>
+  </repositories>
 
   <dependencies>
 
