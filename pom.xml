@@ -17,7 +17,7 @@
     <skipTests>true</skipTests>
 
     <haptava.version>0.9.39-SNAPSHOT</haptava.version>
-    <slf4j.version>1.7.7</slf4j.version>
+    <slf4j.version>1.7.10</slf4j.version>
 
     <appassembler.version>1.9</appassembler.version>
     <deploy.version>2.8.2</deploy.version>

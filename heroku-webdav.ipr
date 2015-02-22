@@ -385,13 +385,13 @@
     </library>
     <library name="Maven: io.haptava:haptava-core:0.9.39-SNAPSHOT">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-core/0.9.39-SNAPSHOT/haptava-core-0.9.39-SNAPSHOT.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-core/0.9.39-SNAPSHOT/haptava-core-0.9.39-20150222.063652-27.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-core/0.9.39-SNAPSHOT/haptava-core-0.9.39-SNAPSHOT-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-core/0.9.39-SNAPSHOT/haptava-core-0.9.39-20150222.063652-27-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-core/0.9.39-SNAPSHOT/haptava-core-0.9.39-SNAPSHOT-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-core/0.9.39-SNAPSHOT/haptava-core-0.9.39-20150222.063652-27-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.haptava:haptava-restclient:0.9.39-SNAPSHOT">
@@ -484,13 +484,13 @@
     </library>
     <library name="Maven: io.haptava:sudothought-jmxql:0.9.39-SNAPSHOT">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jmxql/0.9.39-SNAPSHOT/sudothought-jmxql-0.9.39-SNAPSHOT.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jmxql/0.9.39-SNAPSHOT/sudothought-jmxql-0.9.39-20150222.063634-28.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jmxql/0.9.39-SNAPSHOT/sudothought-jmxql-0.9.39-SNAPSHOT-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jmxql/0.9.39-SNAPSHOT/sudothought-jmxql-0.9.39-20150222.063634-28-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jmxql/0.9.39-SNAPSHOT/sudothought-jmxql-0.9.39-SNAPSHOT-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jmxql/0.9.39-SNAPSHOT/sudothought-jmxql-0.9.39-20150222.063634-28-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.haptava:sudothought-metrics:0.9.39-SNAPSHOT">
@@ -845,26 +845,26 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/simpleframework/simple/4.1.21/simple-4.1.21-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.slf4j:slf4j-api:1.7.7">
+    <library name="Maven: org.slf4j:slf4j-api:1.7.10">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.slf4j:slf4j-log4j12:1.7.7">
+    <library name="Maven: org.slf4j:slf4j-log4j12:1.7.10">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.springframework:spring-core:4.1.1.RELEASE">
