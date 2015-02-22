@@ -9,7 +9,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Haptava WebDav</name>
+  <name>Haptava WebDAV</name>
   <description>Haptava WebDAV on Heroku</description>
   <url>https://github.com/haptava/heroku-webdav.git</url>
 
