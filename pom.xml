@@ -151,9 +151,6 @@
                   <jvmSettings>
                     <systemProperties>
                       <systemProperty>
-                        haptava.adminservlets.unified.enabled=true
-                      </systemProperty>
-                      <systemProperty>
                         log4j.configuration=file:"$BASEDIR"/log4j/webdav.log4j.properties
                       </systemProperty>
                     </systemProperties>
