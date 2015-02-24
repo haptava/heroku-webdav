@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.clover" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="library" name="Clover IDEA Plugin" level="application" />
@@ -14,22 +15,22 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: io.haptava:haptava-webdav:0.9.39-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: io.haptava:haptava-core:0.9.39-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: io.haptava:haptava-jmx:0.9.39-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: io.haptava:haptava-api:0.9.39-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: io.haptava:sudothought-properties:0.9.39-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-guava:2.5.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.0" level="project" />
-    <orderEntry type="library" name="Maven: io.haptava:sudothought-annotations:0.9.39-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: io.haptava:haptava-restclient:0.9.39-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: io.haptava:haptava-conf:0.9.39-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.haptava:sudothought-fasterxml-json:0.9.39-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-json:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-guava:2.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.haptava:sudothought-metrics:0.9.39-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-core:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-servlet:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-servlets:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-healthchecks:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-json:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-httpclient:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-log4j:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-jvm:3.1.0" level="project" />
@@ -61,6 +62,7 @@
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
     <orderEntry type="library" name="Maven: io.haptava:sudothought-dsji:0.9.39-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: io.haptava:sudothought-annotations:0.9.39-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: io.haptava:sudothought-jmxql:0.9.39-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.5" level="project" />
     <orderEntry type="library" name="Maven: jline:jline:2.12" level="project" />

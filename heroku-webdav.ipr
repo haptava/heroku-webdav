@@ -394,6 +394,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-core/0.9.39-SNAPSHOT/haptava-core-0.9.39-SNAPSHOT-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: io.haptava:haptava-jmx:0.9.39-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-jmx/0.9.39-SNAPSHOT/haptava-jmx-0.9.39-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-jmx/0.9.39-SNAPSHOT/haptava-jmx-0.9.39-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-jmx/0.9.39-SNAPSHOT/haptava-jmx-0.9.39-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: io.haptava:haptava-restclient:0.9.39-SNAPSHOT">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-restclient/0.9.39-SNAPSHOT/haptava-restclient-0.9.39-SNAPSHOT.jar!/" />
@@ -407,24 +418,24 @@
     </library>
     <library name="Maven: io.haptava:haptava-webdav:0.9.39-SNAPSHOT">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-webdav/0.9.39-SNAPSHOT/haptava-webdav-0.9.39-SNAPSHOT.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-webdav/0.9.39-SNAPSHOT/haptava-webdav-0.9.39-20150223.074555-8.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-webdav/0.9.39-SNAPSHOT/haptava-webdav-0.9.39-SNAPSHOT-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-webdav/0.9.39-SNAPSHOT/haptava-webdav-0.9.39-20150223.074555-8-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-webdav/0.9.39-SNAPSHOT/haptava-webdav-0.9.39-SNAPSHOT-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/haptava-webdav/0.9.39-SNAPSHOT/haptava-webdav-0.9.39-20150223.074555-8-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.haptava:sudothought-abob:0.9.39-SNAPSHOT">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-abob/0.9.39-SNAPSHOT/sudothought-abob-0.9.39-SNAPSHOT.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-abob/0.9.39-SNAPSHOT/sudothought-abob-0.9.39-20150223.074531-8.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-abob/0.9.39-SNAPSHOT/sudothought-abob-0.9.39-SNAPSHOT-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-abob/0.9.39-SNAPSHOT/sudothought-abob-0.9.39-20150223.074531-8-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-abob/0.9.39-SNAPSHOT/sudothought-abob-0.9.39-SNAPSHOT-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-abob/0.9.39-SNAPSHOT/sudothought-abob-0.9.39-20150223.074531-8-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.haptava:sudothought-annotations:0.9.39-SNAPSHOT">
@@ -473,13 +484,13 @@
     </library>
     <library name="Maven: io.haptava:sudothought-jetty:0.9.39-SNAPSHOT">
       <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jetty/0.9.39-SNAPSHOT/sudothought-jetty-0.9.39-20150222.073423-31.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jetty/0.9.39-SNAPSHOT/sudothought-jetty-0.9.39-20150223.074532-8.jar!/" />
       </CLASSES>
       <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jetty/0.9.39-SNAPSHOT/sudothought-jetty-0.9.39-20150222.073423-31-javadoc.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jetty/0.9.39-SNAPSHOT/sudothought-jetty-0.9.39-20150223.074532-8-javadoc.jar!/" />
       </JAVADOC>
       <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jetty/0.9.39-SNAPSHOT/sudothought-jetty-0.9.39-20150222.073423-31-sources.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/io/haptava/sudothought-jetty/0.9.39-SNAPSHOT/sudothought-jetty-0.9.39-20150223.074532-8-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: io.haptava:sudothought-jmxql:0.9.39-SNAPSHOT">

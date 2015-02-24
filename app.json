@@ -19,16 +19,6 @@
       "value": "",
       "required": true
     },
-    "HAPTAVA_ADMIN_SERVLETS_USERNAME": {
-      "description": "WebDAV server admin servlets username",
-      "value": "",
-      "required": true
-    },
-    "HAPTAVA_ADMIN_SERVLETS_PASSWORD": {
-      "description": "WebDAV server admin servlets password",
-      "value": "",
-      "required": true
-    },
     "APPLICATION_ID": {
       "description": "Generated value",
       "generator": "secret"
