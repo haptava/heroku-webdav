@@ -3,4 +3,6 @@ target
 appassembler
 /logs
 *.iws
+*.iml
+*.ipr
 .clover
