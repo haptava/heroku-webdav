@@ -1,4 +1,4 @@
-Haptava WebDAV Server on Heroku
+Haptava WebDAV Server on Heroku  [![Build Status](https://travis-ci.org/haptava/heroku-webdav.svg?branch=master)](https://travis-ci.org/haptava/heroku-webdav)
 ===================================
 
 
