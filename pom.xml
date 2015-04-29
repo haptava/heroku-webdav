@@ -21,7 +21,7 @@
 
     <appassembler.version>1.10</appassembler.version>
     <deploy.version>2.8.2</deploy.version>
-    <assembly.version>2.5.2</assembly.version>
+    <assembly.version>2.5.4</assembly.version>
 
     <resources.version>2.6</resources.version>
 
