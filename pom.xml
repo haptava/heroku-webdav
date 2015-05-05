@@ -17,13 +17,13 @@
     <skipTests>true</skipTests>
 
     <haptava.version>0.9.39-SNAPSHOT</haptava.version>
-    <slf4j.version>1.7.10</slf4j.version>
+    <slf4j.version>1.7.12</slf4j.version>
 
     <appassembler.version>1.10</appassembler.version>
     <deploy.version>2.8.2</deploy.version>
     <assembly.version>2.5.4</assembly.version>
 
-    <resources.version>2.6</resources.version>
+    <resources.version>2.7</resources.version>
 
     <maven.compiler.version>3.2</maven.compiler.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
