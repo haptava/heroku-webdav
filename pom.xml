@@ -147,7 +147,7 @@
               <programs>
                 <program>
                   <id>webdav.sh</id>
-                  <mainClass>io.haptava.launcher.cli.WebDavLauncher</mainClass>
+                  <mainClass>io.haptava.launcher.cli.WebDavLauncherCli</mainClass>
                   <jvmSettings>
                     <systemProperties>
                       <systemProperty>
